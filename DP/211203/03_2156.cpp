@@ -17,8 +17,8 @@ int main()
 	DP[2] = input[1] + input[2];
 	for (int i = 3; i <= n; i++)
 	{
-		DP[i] = max(DP[i - 2] + input[i], DP[i - 3] + input[i - 1] + input[i]);
+		DP[i] = max(DP[i - 1], DP[i - 2] + input[i]);
+		DP[i] = max(DP[i], DP[i - 3] + input[i - 1] + input[i]);
 	}
-	DP[n] = max(DP[n - 1], DP[n]);
 	cout << DP[n];
 }
