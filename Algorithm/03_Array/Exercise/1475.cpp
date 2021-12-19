@@ -19,7 +19,6 @@ int main()
 		else
 			res[str[i] - '0']++;
 	}
-	cout << res[8];
 	if (res[6] % 2 == 0)
 		res[6] /= 2;
 	else

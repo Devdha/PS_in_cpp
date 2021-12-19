@@ -17,7 +17,6 @@ int main() {
 		nxt[i] = (i == N) ? 1 : i + 1;
 		len++;
 	}
-
 	int i = 1;
 	for (int cur = 1; len != 0; cur = nxt[cur]) {
 		if (i == K) {
