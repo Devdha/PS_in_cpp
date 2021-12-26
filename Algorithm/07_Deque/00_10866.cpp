@@ -4,11 +4,11 @@ using namespace std;
 deque<int> dq;
 
 int main() {
+    ios::sync_with_stdio(0); cin.tie(0);
     int n, c;
     string cmd;
     cin >> n;
     while (n--) {
-        ios::sync_with_stdio(0); cin.tie(0);
         cin >> cmd;
         if (cmd == "push_front") {
             cin >> c;
