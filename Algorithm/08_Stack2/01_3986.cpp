@@ -6,7 +6,7 @@ int n, cnt;
 string str;
 
 int main() {
-    ios::sync_with_stdio(0); cin.tie(0)
+    ios::sync_with_stdio(0); cin.tie(0);
     cin >> n;
     while (n--) {
         while (!s.empty()) s.pop();

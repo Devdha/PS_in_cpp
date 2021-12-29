@@ -21,5 +21,6 @@ int check_to_paint(string line, bool wb) {
 }
 
 int main() {
+    int min = 2500;
     
 }
