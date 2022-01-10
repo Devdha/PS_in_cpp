@@ -32,7 +32,7 @@ int main() {
             maxtall = max(maxtall, board[i][j]);
         }
     
-    for (int i = 1; i < maxtall; i++) {
+    for (int i = 0; i < maxtall; i++) {
         for (int j = 0; j < 101; j++)
             fill(v[j], v[j] + 101, 0);
         
@@ -49,6 +49,4 @@ int main() {
         }
         res = max(res, cnt);
     }
-    if (res == 0) cout << 1;
-    else cout << res;
 }
