@@ -3,9 +3,9 @@ using namespace std;
 
 typedef unsigned long long ull;
 
-ull a, b, c;
+int a, b, c;
 
-ull recur(ull a, ull b, ull c) {
+ull recur(int a, int b, int c) {
 	if (b == 0) return 1;
 	if (b % 2) return (a * recur(a, b - 1, c) % c);
 	ull half = recur(a, b/2, c);

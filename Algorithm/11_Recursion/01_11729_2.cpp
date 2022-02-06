@@ -14,7 +14,7 @@ void cntRecur(int a, int b, int n) {
 }
 
 void recur(int a, int b, int n) {
-	if (n == 1) { 
+	if (n == 1) {
 		cout << a << ' ' << b << '\n';
 		return;
 	}
